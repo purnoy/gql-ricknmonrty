@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.items-collection{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    gap:50px;
+}
+.every-item{
+    cursor: pointer;
+}

@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import Queries from '@/providers/Queries'
+
 
 export default function Home() {
   return (
-    <main className="">
-      Added Provider to the layout
+    <main className="container mx-auto">
+      <Queries/>
     </main>
   )
 }
